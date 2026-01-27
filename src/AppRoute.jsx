@@ -34,29 +34,28 @@ export default function AppRoute() {
       <Routes>
         <Route element={<AppLayout />}>
 
-          <Route path= '/' element= {<Title title="Home - Fysicianz"><Home /></Title>} />
-          <Route path= '/abouts' element= {<Title title="About Us - Fysicianz"><AboutUs /></Title>} />
-          <Route path= '/contacts' element= {<Title title="Contact Us - Fysicianz"><ContactUs /></Title>} />
-          <Route path= '/blogs' element= {<Title title="Blogs - Fysicianz"><Blogs /></Title>} />
-          <Route path= '/privacy' element= {<Title title="PrivacyPolicy - Fysicianz"><PolicyPage /></Title>} />
-          <Route path= '/services' element= {<Title title="Services - Fysicianz"><Services /></Title>} />
-          <Route path= '/services/amb' element= {<Title title="AMBS - Fysicianz"><MedicalBilling /></Title>} />
-          <Route path= '/services/mc' element= {<Title title="MCS - Fysicianz"><CodingServices /></Title>} />
-          <Route path= '/services/ce' element= {<Title title="C&ES - Fysicianz"><EnrollmentServices /></Title>} />
-          <Route path= '/services/arf' element= {<Title title="ARFS - Fysicianz"><AccountsReceivable /></Title>} />
-          <Route path= '/services/dms' element= {<Title title="DMS - Fysicianz"><DanialManagement /></Title>} />
-          <Route path= '/services/ofnmb' element= {<Title title="Out-of-network - Fysicianz"><OutOfNetwork_Billing /></Title>} />
-          <Route path= '/services/pb' element= {<Title title="Patient Billing - Fysicianz"><PatientBilling /></Title>} />
-          <Route path= '/services/qpp' element= {<Title title="QPP - Fysicianz"><QualityPayment /></Title>} />
-          <Route path= '/services/pcmh' element= {<Title title="PCMH - Fysicianz"><PCMH /></Title>} />
-          <Route path= '/services/pm' element= {<Title title="Practice Management - Fysicianz"><PracticeManagement /></Title>} />
-          <Route path= '/services/rcms' element= {<Title title="RCM Software - Fysicianz"><RCMSoftware /></Title>} />
-          <Route path= '/services/va' element= {<Title title="Virtual Assistants - Fysicianz"><VirtualAssistant /></Title>} />
-          <Route path= '/services/ip' element= {<Title title="Incentive Programs - Fysicianz"><IncentiveProgram /></Title>} />
-          <Route path= '/services/ma' element= {<Title title="Medical Audit - Fysicianz"><MedicalAudit /></Title>} />
-          <Route path= '/services/dm' element= {<Title title="Digital Marketing - Fysicianz"><DigitalMarketing /></Title>} />
-          <Route path= '/services/pr' element= {<Title title="Practice Reporting - Fysicianz">< PracticeReporting /></Title>} />
-
+          <Route path= '/' element= {<Title title="Home - physicianmeds"><Home /></Title>} />
+          <Route path= '/abouts' element= {<Title title="About Us - physicianmeds"><AboutUs /></Title>} />
+          <Route path= '/contacts' element= {<Title title="Contact Us - physicianmeds"><ContactUs /></Title>} />
+          <Route path= '/blogs' element= {<Title title="Blogs - physicianmeds"><Blogs /></Title>} />
+          <Route path= '/privacy' element= {<Title title="PrivacyPolicy - physicianmeds"><PolicyPage /></Title>} />
+          <Route path= '/services' element= {<Title title="Services - physicianmeds"><Services /></Title>} />
+          <Route path= '/services/amb' element= {<Title title="AMBS - physicianmeds"><MedicalBilling /></Title>} />
+          <Route path= '/services/mc' element= {<Title title="MCS - physicianmeds"><CodingServices /></Title>} />
+          <Route path= '/services/ce' element= {<Title title="C&ES - physicianmeds"><EnrollmentServices /></Title>} />
+          <Route path= '/services/arf' element= {<Title title="ARFS - physicianmeds"><AccountsReceivable /></Title>} />
+          <Route path= '/services/dms' element= {<Title title="DMS - physicianmeds"><DanialManagement /></Title>} />
+          <Route path= '/services/ofnmb' element= {<Title title="Out-of-network - physicianmeds"><OutOfNetwork_Billing /></Title>} />
+          <Route path= '/services/pb' element= {<Title title="Patient Billing - physicianmeds"><PatientBilling /></Title>} />
+          <Route path= '/services/qpp' element= {<Title title="QPP - physicianmeds"><QualityPayment /></Title>} />
+          <Route path= '/services/pcmh' element= {<Title title="PCMH - physicianmeds"><PCMH /></Title>} />
+          <Route path= '/services/pm' element= {<Title title="Practice Management - physicianmeds"><PracticeManagement /></Title>} />
+          <Route path= '/services/rcms' element= {<Title title="RCM Software - physicianmeds"><RCMSoftware /></Title>} />
+          <Route path= '/services/va' element= {<Title title="Virtual Assistants - physicianmeds"><VirtualAssistant /></Title>} />
+          <Route path= '/services/ip' element= {<Title title="Incentive Programs - physicianmeds"><IncentiveProgram /></Title>} />
+          <Route path= '/services/ma' element= {<Title title="Medical Audit - physicianmeds"><MedicalAudit /></Title>} />
+          <Route path= '/services/dm' element= {<Title title="Digital Marketing - physicianmeds"><DigitalMarketing /></Title>} />
+          <Route path= '/services/pr' element= {<Title title="Practice Reporting - physicianmeds">< PracticeReporting /></Title>} />
 
         </Route>
       </Routes>
