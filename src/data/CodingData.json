@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Comprehensive",
+    "subtitle": "E/M Coding",
+    "description": "We offer precise evaluation and management (E/M) coding to capture the full scope of patient encounters. Accurate E/M coding helps reduce errors, supports compliance, and improves reimbursement outcomes.",
+    "image": "/p29.jpg",
+    "backColor": "bg-gradient-to-t from-blue-900 to-sky-400"
+  },
+  {
+    "title": "Telehealth &",
+    "subtitle": "Telemedicine Coding",
+    "description": "With the rise of virtual care, telehealth coding requires specialized knowledge. We apply up-to-date codes for telemedicine visits to ensure providers are properly reimbursed for remote patient care.",
+    "image": "/p15.jpg",
+    "backColor": "bg-gradient-to-t from-teal-900 to-cyan-400"
+  },
+  {
+    "title": "Independent",
+    "subtitle": "Assessments",
+    "description": "Our independent coding assessments provide an objective review of your documentation and coding accuracy. These reviews help identify gaps, prevent revenue loss, and strengthen compliance with payer requirements.",
+    "image": "/p14.jpg",
+    "backColor": "bg-gradient-to-t from-darkblue to-indigo-400"
+  },
+  {
+    "title": "Audit",
+    "subtitle": "Services",
+    "description": "PhysicianMeds delivers thorough coding audit services to detect errors, reduce risk, and protect against compliance issues. Regular audits also highlight opportunities for improvement and revenue optimization.",
+    "image": "/p22.jpg",
+    "backColor": "bg-gradient-to-t from-blue-900 to-sky-400"
+  },
+  {
+    "title": "Custom-Built",
+    "subtitle": "Templates",
+    "description": "To make documentation easier, we design custom coding templates tailored to the unique needs of your specialty or practice. These templates improve efficiency, accuracy, and consistency in coding.",
+    "image": "/p26.jpg",
+    "backColor": "bg-gradient-to-t from-sky-900 to-cyan-400"
+  },
+  {
+    "title": "Coding",
+    "subtitle": "Webinars",
+    "description": "We also provide coding webinars to educate providers and staff on the latest coding updates, best practices, and compliance requirements. These sessions empower your team to stay informed and error-free.",
+    "image": "/p9.jpg",
+    "backColor": "bg-gradient-to-t from-darkblue to-indigo-400"
+  }
+]

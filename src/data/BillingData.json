@@ -1,0 +1,37 @@
+[
+  {
+    "title": "End-to-End Revenue",
+    "subtitle": "Cycle Management",
+    "description": "Our comprehensive revenue cycle management (RCM) process ensures accuracy and compliance at every stage. We manage patient demographics, insurance verification, charge entry, medical coding, claim submission, denial management, and payment posting with strict attention to detail.",
+    "image": "/p1.jpg",
+    "backColor": "bg-gradient-to-t from-sky-900 to-blue-400"
+  },
+  {
+    "title": "Insurance Eligibility",
+    "subtitle": "Verification & Prior Authorization",
+    "description": "Insurance eligibility issues are one of the leading causes of claim denials. At PhysicianMeds, we verify patient coverage and benefits upfront, confirm pre-authorization requirements, and communicate financial responsibilities clearly. This proactive approach reduces rejections and improves reimbursement success.",
+    "image": "/p2.jpg",
+    "backColor": "bg-gradient-to-t from-teal-800 to-cyan-400"
+  },
+  {
+    "title": "Accurate Medical Coding",
+    "subtitle": "& Charge Entry",
+    "description": "Correct coding is essential for clean claims. Our certified billing specialists use the latest ICD-10, CPT, and HCPCS codes to match services provided. We regularly audit charge entry for accuracy, reducing costly errors and ensuring compliance with payer guidelines.",
+    "image": "/p28.jpg",
+    "backColor": "bg-gradient-to-t from-darkblue to-indigo-400"
+  },
+  {
+    "title": "Claim Scrubbing",
+    "subtitle": "& Fast Submission",
+    "description": "Before submission, every claim undergoes thorough claim scrubbing to identify errors such as missing data, incorrect modifiers, or invalid codes. Our team then submits claims promptly within payer deadlines, improving turnaround times and boosting your practice’s cash flow.",
+    "image": "/p5.jpg",
+    "backColor": "bg-gradient-to-t from-cyan-800 to-sky-400"
+  },
+  {
+    "title": "Payment Posting",
+    "subtitle": "& Denial Management",
+    "description": "Our billing team ensures accurate and timely payment posting, reconciliation, and reporting. If underpayments or denials occur, we immediately investigate, appeal when necessary, and track claim progress to maximize collections. Patients also receive clear and easy-to-understand statements, improving transparency and satisfaction.",
+    "image": "/p8.jpg",
+    "backColor": "bg-gradient-to-t from-indigo-900 to-cblue"
+  }
+]

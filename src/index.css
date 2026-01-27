@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@1,600&display=swap');
+@import "tailwindcss";
+
+body {
+  @apply bg-back text-black font-inter ;
+}
+/* Custom Theme */
+@theme {
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+
+  /* Brand Colors */
+  --color-cblue: #4676FF;
+  --color-lightgreen: #F3FDF2;
+  --color-skygreen: #E5FFFD;
+  --color-Bwhite: #ffffff;
+  --color-Bsilk: #cfd0d1;
+  --color-darkred: #b42a2a;
+  --color-reddish: #f63b3b;
+  --color-darkblue: #1d3667;
+  --color-back: #f0f2f7;
+
+  /* Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  @keyframes fade-up {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+  }
+  @keyframes rainbowGlow {
+  0% { color: #ff0055; text-shadow: 0 0 5px #ff0055; }
+  20% { color: #ffbb00; text-shadow: 0 0 5px #ffbb00; }
+  40% { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
+  60% { color: #00bbff; text-shadow: 0 0 5px #00bbff; }
+  80% { color: #ff00ff; text-shadow: 0 0 5px #ff00ff; }
+  100% { color: #ff0055; text-shadow: 0 0 5px #ff0055; }
+}
+@keyframes rainbowSlide {
+  0% {
+    background-position: -200% 0;
+  }
+  50% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+}
+.animate-rainbowSlide {
+  background-image: linear-gradient(
+    90deg,
+    #ff0055,
+    #ffbb00,
+    #00ff00,
+    #00bbff,
+    #ff00ff,
+    #ff0055
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+  animation: rainbowSlide 4s linear infinite;
+
+/* Animation shortcuts */
+    --animate-rainbowGlow: rainbowGlow 3s linear infinite;
+    --animate-float: float 4s ease-in-out infinite;
+    --animate-float-slow: float-slow 6s ease-in-out infinite;
+    --animate-fade-up: fade-up 0.8s ease-out forwards;
+    --animate-slide: slide 40s linear infinite;
+    --animate-scroll: scroll 50s linear infinite;
+}
+
+  /* General Styling */
+    .badge {  
+      @apply inline-block px-3 md:px-5 py-1 md:py-1.5 border-2 rounded-full font-semibold md:text-lg text-cblue border-cblue font-montserrat; 
+    }
+    .btn {
+      @apply inline-block min-w-max text-white transition-colors duration-200 font-semibold;
+    }
+    .btn-red {
+      @apply inline-block min-w-max text-white bg-reddish border-2 border-reddish transition hover:bg-transparent hover:text-reddish font-semibold rounded-2xl;
+    }
+    .btn-blue {
+      @apply inline-block min-w-max text-white bg-cblue border-2 border-cblue transition hover:bg-transparent hover:text-cblue font-semibold rounded-2xl;
+    }
+    .content {
+      @apply font-inter text-[0.83rem] text-gray-800 leading-6 text-left;
+    }
+    .link {
+      @apply text-[14px] py-2 font-semibold uppercase text-darkblue transition-all duration-300 hover:border-b-2 hover:border-t-2 hover:text-darkred hover:border-reddish ;
+    }
+    .droplink {
+      @apply flex px-4 py-2.5 cursor-pointer text-[12px] font-light tracking-wide text-white capitalize hover:font-bold hover:border-b hover:border-darkred hover:text-reddish transition-all duration-300;
+    }
+    .mobile-nav-link {
+        @apply text-lg font-medium p-2 border-b border-gray-200 hover:bg-gray-300;
+    }
+    
+    .mobile-droplink {
+        @apply text-base text-gray-700 p-2 block rounded-md hover:text-reddish transition duration-150;
+    }  
+    em { @apply text-cblue not-italic  font-bold; }
+    emr { @apply text-reddish not-italic  font-bold; }
+    emb { @apply text-black not-italic  font-bold; }
+
+
